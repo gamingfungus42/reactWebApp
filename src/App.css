@@ -1,0 +1,39 @@
+
+.App {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+body {
+  background-color: #282c34;
+}
+div {
+  white-space: nowrap;
+}
+
+#bgvid {
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+  z-index: -5;
+  filter: blur(10px);
+}
+
+
+.transText {
+  margin-top: 40px;
+  width: 100px !important;
+}
+
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+Link {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
