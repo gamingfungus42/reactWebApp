@@ -4,7 +4,7 @@ import React from "react";
 const Services = () => {
     return(
         <div>
-        <h2></h2>
+        <h2>amungus</h2>
         </div>
     )
 }

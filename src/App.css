@@ -27,13 +27,3 @@ div {
   width: 100px !important;
 }
 
-
-a {
-  color: inherit; /* blue colors for links too */
-  text-decoration: inherit; /* no underline */
-}
-
-Link {
-  color: inherit; /* blue colors for links too */
-  text-decoration: inherit; /* no underline */
-}
