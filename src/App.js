@@ -5,7 +5,7 @@ import Navibar from "./components/Navbar";
 
 const App = () => {
   return (
-      <div className="App">
+      <div className="App flex flex-col">
           <Navibar>
 
           </Navibar>

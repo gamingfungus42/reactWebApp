@@ -11,6 +11,11 @@ div {
   white-space: nowrap;
 }
 
+.text-transition_inner>div {
+  margin-top: -6.5px;
+  margin-left: -1px;
+}
+
 #bgvid {
   min-width: 100%;
   min-height: 100%;

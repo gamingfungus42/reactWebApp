@@ -15,7 +15,6 @@ import {
 } from 'react-router-dom';
 import Services from './Services';
 import Mission from './Mission';
-import Support from './Support';
 import Contact from './Contact';
 import TextTransition, { presets } from "react-text-transition";
 
@@ -59,7 +58,6 @@ export default function Navibar() {
               <NavDropdown title="About" id="basic-nav-dropdown">
                 <NavDropdown.Item as={Link} to="/mission">Mission</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/contact">Contact</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/support">Support</NavDropdown.Item>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
@@ -74,9 +72,6 @@ export default function Navibar() {
         </Route>
         <Route path="/contact">
           <Contact />
-        </Route>
-        <Route path="/support">
-          <Support />
         </Route>
         <Route path="/">
           <div>
