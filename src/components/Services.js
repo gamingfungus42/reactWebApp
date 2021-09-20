@@ -51,9 +51,9 @@ const Services = () => {
 function Service() {
    return (<div className="flex flex-row lg:max-w-3/4 justify-center mx-auto">
       {services.map((details) => (
-         <div className="mt-16 max-w-sm mx-5 rounded-xl p-10 relative flex flex-col overflow-hidden border-yellow-500 border-2 h-full">
+         <div className="mt-16 max-w-sm mx-5 rounded-xl p-10 relative flex flex-col overflow-hidden border-blue-500 border-2 h-full">
 
-            <span class="bg-yellow-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl uppercase ">{details.feature}</span>
+            <span class="bg-blue-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl uppercase ">{details.feature}</span>
 
             <h1>{details.title}</h1>
             <p class="price text-gray-800 font-bold">${details.price}/month</p>
@@ -63,7 +63,7 @@ function Service() {
 
 
 
-            <Link to="/product" className="flex items-center mt-auto text-white bg-yellow-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-yellow-600 rounded no-underline hover:no-underline">Purchase
+            <Link to="/product" className="flex items-center mt-auto text-white bg-blue-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-blue-600 rounded no-underline hover:no-underline">Purchase
                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                </svg>
