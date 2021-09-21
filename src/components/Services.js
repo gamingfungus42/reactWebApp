@@ -19,7 +19,7 @@ let services = [
       title: "Gold",
       price: 50,
       description: "At $50 per month, the Gold Plan provides the highest value and allows access to all premium features.",
-      features: ["Dieting,", " Gym Coach,", " Protein Packs,", " Yoga,", " Stretching Hell"],
+      features: ["Dieting,", " Gym Coach,", " Stretching Hell"],
       feature: "Best Value!",
       primaryButton: true
    },
